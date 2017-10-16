@@ -154,7 +154,7 @@ int main(int argc, char **argv)
             break;
         case 'q':
             free(city);
-            tst_free_all(root);
+            tst_free(root);
             return 0;
             break;
         default:
